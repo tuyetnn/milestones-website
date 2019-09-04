@@ -3,14 +3,30 @@
 
 html{
   background-color: #deb887;
+   align-self:center;
+   font-size: 20px;
 }
 H1{
-  color:maroon
+  color:darkred;
+  text-align: center;
 }
 H2{
   color: maroon
 }
+h3{
+  color: maroon
+}
+h4{
+  color: maroon
+}
 h5{
-  align-self: center;
+  color: maroon;
   font-family: cursive;
+}
+p {
+  color: #000000;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 70;
 }
