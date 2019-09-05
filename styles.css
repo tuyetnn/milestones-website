@@ -5,6 +5,7 @@ html{
   background: repeating-linear-gradient(#ffffff,#800000);
    align-self:center;
    font-size: 20px;
+font-family: 'Anton', sans-serif;
 }
 H1{
   color:darkred;
