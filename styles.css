@@ -2,34 +2,54 @@
 /* style of tags*/
 
 html{
-  background: repeating-linear-gradient(#ffffff,#800000);
+background: linear-gradient(#e66465, #9198e5);
    align-self:center;
    font-size: 20px;
-font-family: 'Anton', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
-H1{
+/* ID Selector*/
+#this-is-an-id{
+  font-family: Arial;
+  text-align: left;
+  font-size: 20px;
+}
+.milestones{
   color:darkred;
   text-align: center;
+  font-size: 30px;
 }
-H2{
-  color: cornsilk
+H1{
+  color: #800080;
   font-family: cursive;
 font-size: 33px;
+text-align: center;
 }
+h2{
+  color: #800080;
+  font-family: cursive;
+text-align: center;
+font-size: 33px;
+}
+
+
 h3{
-  color: cornsilk
+  color: #800080;
   font-family: cursive;
 font-size: 33px;
+text-align: center;
 }
+
 h4{
-  color: cornsilk
-  font-family: cursive;
-font-size: 33px;
-}
-h5{
-  color: cornsilk;
+  color: #800080;
   font-family: cursive;
   font-size: 33px;
+  text-align: center;
+}
+h5{
+  color: #800080;
+  font-family: cursive;
+  font-size: 33px;
+  text-align: center;
 }
 
 p {
@@ -38,4 +58,11 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 70;
+}
+.content-box {
+  width: 1500px;
+  height: 70px;
+  padding: 10px;
+  border: 8px solid red;
+  background: white;
 }
