@@ -1,68 +1,77 @@
-/* this is my css fil */
-/* style of tags*/
+@charset "UTF-8";
+/* CSS Document for CA3 */
 
-html{
-background: linear-gradient(#e66465, #9198e5);
-   align-self:center;
-   font-size: 20px;
-font-family: 'Roboto', sans-serif;
-}
-/* ID Selector*/
-#this-is-an-id{
-  font-family: Arial;
-  text-align: left;
-  font-size: 20px;
-}
-.milestones{
-  color:darkred;
-  text-align: center;
-  font-size: 30px;
-}
-H1{
-  color: #800080;
-  font-family: cursive;
-font-size: 33px;
-text-align: center;
-}
-h2{
-  color: #800080;
-  font-family: cursive;
-text-align: center;
-font-size: 33px;
+body {
+
+	background-color: antiquewhite;
 }
 
 
-h3{
-  color: #800080;
-  font-family: cursive;
-font-size: 33px;
-text-align: center;
+h1 {
+	font-family: family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: #92C818;
+	text-align: center;
+	font-size: 6em;
+	margin: 0;
 }
 
-h4{
-  color: #800080;
-  font-family: cursive;
-  font-size: 33px;
-  text-align: center;
-}
-h5{
-  color: #800080;
-  font-family: cursive;
-  font-size: 33px;
-  text-align: center;
+
+.intro {
+	background-color: bisque;
+	border: dashed thick greenyellow;
+	text-align: justify;
+	font-size: 1.5em;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+
 }
 
-p {
-  color: #000000;
-  line-height: 24px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 70;
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 0 8px;
 }
-.content-box {
-  width: 1500px;
-  height: 70px;
-  padding: 10px;
-  border: 8px solid red;
-  background: white;
+
+.row {
+	width: 100%;
+}
+
+.card {
+	background-color: ghostwhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 10px;
+}
+
+/* IGNORE THIS THERE ARE NO ERRORS IN LINE 55-59  Clear floats */
+.container {
+    content: "";
+    clear: ;
+    display: table;
+} /* IGNORE THE ABOVE THERE ARE NO ERRORS IN LINE 55-59 */
+
+.title {
+    color: gray;
+}
+
+.img {
+	max-width: 100%;
+
+}
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	text-align: center;
 }
